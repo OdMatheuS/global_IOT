@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "author": "André Tritiack",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": 102.6, "left": -74, "attrs": {} },
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 142.34,
+      "left": -245.9,
+      "rotate": 90,
+      "attrs": {}
+    },
+    { "type": "wokwi-dht22", "id": "dht1", "top": 105.9, "left": 61.8, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "dht1:VCC", "bb1:14b.f", "", [ "$bb" ] ],
+    [ "dht1:SDA", "bb1:15b.f", "", [ "$bb" ] ],
+    [ "dht1:NC", "bb1:16b.f", "", [ "$bb" ] ],
+    [ "dht1:GND", "bb1:17b.f", "", [ "$bb" ] ],
+    [ "bb1:17b.j", "bb1:bn.14", "black", [ "v0" ] ],
+    [ "bb1:15b.j", "esp:5", "orange", [ "v67.2", "h-288" ] ],
+    [ "bb1:14b.j", "bb1:bp.11", "red", [ "v0" ] ],
+    [ "esp:GND.2", "bb1:bn.1", "black", [ "v19.2", "h75.2" ] ],
+    [ "bb1:bp.1", "esp:3V3", "red", [ "v-96.9", "h-75.2" ] ]
+  ],
+  "dependencies": {}
+}
