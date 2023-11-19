@@ -55,3 +55,6 @@ Analisar como a temperatura ambiente afeta a qualidade do sono, identificando pa
    - Carregue o código no ESP32.
    - Os dados começarão a ser coletados automaticamente.
    - Link para o simulador do [Wokwi](https://wokwi.com/projects/381841485846924289) utilizado nos testes & desenvolvimento
+
+### Conteúdo extra
+- neste repositório, existe o arquivo **notebook.ipynb** que contem dados, gráficos e métricas analisados.
