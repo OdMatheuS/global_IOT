@@ -1,8 +1,5 @@
 # Projeto da global solution IOT
 
-nosso projeto envolveu o seguinte hardware: ESP32 & sensor DHT22
-**Projeto de IoT para Melhoria do Sono - README**
-
 ### Descrição do Projeto
 
 Este projeto de IoT tem como objetivo coletar dados de temperatura ambiente ao longo do tempo para analisar a relação entre a temperatura do ambiente e a qualidade do sono. Utilizando o ESP32 e o sensor DHT22, os dados são registrados e armazenados para possibilitar análises detalhadas sobre os padrões de sono.
