@@ -57,4 +57,4 @@ Analisar como a temperatura ambiente afeta a qualidade do sono, identificando pa
    - Link para o simulador do [Wokwi](https://wokwi.com/projects/381841485846924289) utilizado nos testes & desenvolvimento
 
 ### Conteúdo extra
-- neste repositório, existe o arquivo **notebook.ipynb** que contem dados, gráficos e métricas analisadas.
+- neste repositório, existe o arquivo **notebook.ipynb** que contem dados analisados, gráficos e métricas.
