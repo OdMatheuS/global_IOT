@@ -58,3 +58,4 @@ Analisar como a temperatura ambiente afeta a qualidade do sono, identificando pa
 
 ### Conteúdo extra
 - neste repositório, existe o arquivo **notebook.ipynb** que contem dados analisados, gráficos e métricas.
+- link extra: [Link do video da aplicação Mobile](https://)
